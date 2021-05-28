@@ -16,11 +16,24 @@ header {
     height: 60px;
 }
 
+li {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.menu-icon {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 header nav {
     display: flex;
     justify-content: flex-end;
     margin: 10px;
     padding-left: 0;
+    text-align: center;
 }
 header ul{
     margin: 10px;
